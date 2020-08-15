@@ -1,0 +1,6 @@
+/* miniprogram/pages/cloud/cloud.wxss */
+.line{
+  height: 2rpx;
+  border-bottom:1rpx solid red;
+  margin:0 100rpx;
+}

@@ -1,0 +1,25 @@
+<!--miniprogram/pages/cloud/cloud.wxml-->
+<view>
+<view class="line"></view>
+<button bind:tap="insert">插入数据</button>
+<button bind:tap="update">更新数据</button>
+<button bind:tap="search">查询唯一数据</button>
+<button bind:tap="searchWhere">查询多条数据</button>
+<button bind:tap="remove">删除数据</button>
+</view>
+
+<view>
+<view class="line"></view>
+<button bind:tap="sum">调用云函数sum</button>
+<button bind:tap="getOpenId">获取当前用户的openid</button>
+<button bind:tap="batchDel">批量删除</button>
+</view>
+
+<view>
+<view class="line"></view>
+<button bind:tap="upload">上传图片</button>
+<button bind:tap="download">下载图片</button>
+<button bind:tap="show">图片展示</button>
+</view>
+
+
